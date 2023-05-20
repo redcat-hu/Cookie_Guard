@@ -1,4 +1,4 @@
-ts/
 img/
+*.js
 *.css
 *.css.map
