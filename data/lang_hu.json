@@ -1,0 +1,24 @@
+{
+    "title": "Sütiket használunk",
+    "desc": "Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javítsa a böngészési élményét, azzal hogy személyre szabott tartalmakat és célzott hirdetéseket jelenít meg, és elemzi a weboldalunk forgalmát, hogy megtudjuk honnan érkeztek a látogatóink.",
+    "btn": ["Beállítások", "Összes elutasítása", "Összes törlése", "Összes engedélyezése"],
+    "policy": "cookie szabályzat",
+    "active": "Mindig aktív",
+    "info_title": "Az ön adatainak védelem fontos számunkra",
+    "info_desc": "A sütik egészen kicsi szöveges fájlok, amelyeket a számítógépén tárolnak, amikor meglátogat egy weboldalt. Sütiket használunk különféle célokra, és weboldalunkon az online élmény fokozása érdekében (például a fiókjának bejelentkezési adatainak megjegyzésére). Webhelyünk böngészése közben megváltoztathatja a beállításait, és elutasíthatja a számítógépén tárolni kívánt bizonyos típusú sütik használatát. A számítógépen már tárolt sütiket eltávolíthatja, de ne feledje, hogy a sütik törlése megakadályozhatja weboldalunk egyes részeinek használatát.",
+    "sett_save": "Beállítások mentése",
+    "type_ti": [
+        "Feltétlenül szükséges sütik",
+        "Funkcionális sütik",
+        "Követési és teljesítménnyel kapcsolatos sütik",
+        "Célirányos és hirdetési sütik"
+    ],
+    "type_de": [
+        "Ezek a sütik elengedhetetlenek a weboldalunkon elérhető szolgáltatások nyújtásához, valamint weboldalunk bizonyos funkcióinak használatához. A feltétlenül szükséges sütik használata nélkül weboldalunkon nem tudunk bizonyos szolgáltatásokat nyújtani Önnek.",
+        "Ezeket a sütiket arra használjuk, hogy személyre szabottabb élményt nyújtsunk weboldalunkon, és hogy az oldal rögzítse a webhelyünk használata során tett döntéseket. Például arra használhatunk funkcionális sütiket, hogy emlékezzünk a nyelvi beállításokra, vagy a bejelentkezési adataira.",
+        "Ezeket a sütiket arra használjuk, hogy információkat gyűjtsünk weboldalunk forgalmáról és látogatóiról, webhelyünk használatának elemzéséhez. Például ezek a sütik nyomon követhetik a webhelyen töltött időt vagy a meglátogatott oldalakat, amely segít megérteni, hogyan javíthatjuk webhelyünket az Ön nagyobb megelégedettségére. Ezekkel a nyomkövető és teljesítménnyel kapcsolatos sütikkel összegyűjtött információk egyetlen személyt sem azonosítanak.",
+        "Ezeket a sütiket olyan hirdetések megjelenítésére használjuk, amelyek valószínűleg érdekli Önt a böngészési szokásai alapján. Ezek a sütik, amelyeket a tartalom és / vagy a reklámszolgáltatók szolgáltatnak, egyesíthetik a weboldalunktól gyűjtött információkat más információkkal, amelyeket önállóan összegyűjtöttek az Ön böngészőjének tevékenységeivel kapcsolatban a webhely-hálózaton keresztül. Ha Ön úgy dönt, hogy eltávolítja vagy letiltja ezeket a célirányos vagy hirdetési sütiket, akkor is látni fogja a hirdetéseket, de lehet, hogy nem lesznek relevánsak az Ön számára."
+    ],
+    "disable": ["Hogyan tilthatók le a sütik?", "A felhasználó egyszerűen beállíthatja böngészőjét az egyedi igényeinek megfelelően. Ennek megfelelően a sütik is könnyedén letilthatók. Figyelem! Ha letiltja a sütiket, a rendszer a továbbiakban nem tudja menteni a weboldal jelszóvédett részébe történő belépéshez használt felhasználónevet és jelszót. Keressen rá annak rövid ismertetőjére, hogyan kapcsolhatja ki a sütiket a böngészőjében!"],
+    "other": ["Egyéb információk", "A sütikre vonatkozó irányelveinkkel és az Ön választásával kapcsolatosan felmerülő bármilyen kérdésével keressen meg bennünket."]
+}
