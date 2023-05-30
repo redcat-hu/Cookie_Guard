@@ -1,0 +1,43 @@
+{
+    "cookie_consent_accepted": {
+        "name": "Cookie Consent Accepted",
+        "provider": "default",
+        "expiration": 180,
+        "description": "Ez az alap cookie",
+        "type": "necessary"
+    },
+    "cookie_consent_level": {
+        "name": "Cookie Consent Level",
+        "provider": "default",
+        "expiration": 180,
+        "description": "Ez az alap cookie",
+        "type": "necessary"
+    },
+    "darkmode": {
+        "name": "Darkmode Switcher",
+        "provider": "default",
+        "expiration": 7,
+        "description": {
+            "hu": "Ez a süti tárlja, ha eltérő sötét mód van beállítva, mint az alapértelmezett"
+        },
+        "type": "necessary"
+    },
+    "lang": {
+        "name": "Language Switcher",
+        "provider": "default",
+        "expiration": 7,
+        "description": {
+            "hu": "A nyelválasztó"
+        },
+        "type": "necessary"
+    },
+    "_ga": {
+        "name": "Google Analytics",
+        "provider": "google.com",
+        "expiration": 180,
+        "description": {
+            "hu": "A Google Analytics "
+        },
+        "type": "necessary"
+    }
+}

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Tester</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
 <?php
     $maki = "";
@@ -16,17 +18,17 @@
 
 
 
-<object type="image/svg+xml" data="img/cookie.svg"></object>
+
+
 
 
 
 <script> // Variables
-    let siteLanguage = "hu";
-
-    let php = ["/red-cat-center/", "", "", 1, "home"];
+    let siteData = {
+        language: "hu",
+        mainPath: "/"
+    };
 </script>
-
-<div id="cookie"></div> <!-- cookie div -->
 <script src="./ts/public/cookie.js"></script> <!-- cookie script -->
 
 </body>

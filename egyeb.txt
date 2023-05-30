@@ -1,0 +1,204 @@
+  // Create HTML text
+  let htmlCookie = `
+      <div id="cookieMain">
+        <div id="cookieTop">${cookieSvg}</div>
+
+        <div id="cookieCenter">
+            <b>${jsonData['title']}</b>
+            <p>${jsonData['description']}</p>
+            
+            <div class="cookieChoose">
+              <div class=cookieBtn id="cookieSettBtn">${jsonData['buttons']['settings']}</div>
+              <div class=cookieBtn id="${btnDeny[0]}">${btnDeny[1]}</div>
+              <div class=cookieBtn id="cookieAgreeAll">${jsonData['buttons']['agreeAll']}</div>
+            </div>
+        </div>
+        <div id="cookieSettings">
+          <div>
+            <b>${jsonData['info']['title']}</b>
+            <p>${jsonData['info']['description']}</p>
+          </div>
+          <div>
+            <div class="cookieCheck"><b>${jsonData['types']['title']['necessary']}</b> <div class=cookieBtn>${jsonData['buttons']['agreeAll']}</div></div>
+            <p>${jsonData['types']['description']['necessary']}</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="cookieSwitch">
+        ${cookieSvg}
+      </div>
+  `
+
+
+
+
+  // Import
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// SASS Variables
+$borderRad1: 60px;
+$priColor: var(--primary-color, hsl(204, 76%, 46%));
+$secColor: var(--secundary-color, hsl(204, 76%, 36%));
+$delColor: red;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cookie {
+--cookie-color-background: rgb(231, 231, 231);
+--cookieMiniSize: 50px;
+--cookieMaxiSize: 200px;
+
+font-family: 'Roboto', sans-serif;
+line-height: 20px;
+z-index: 500;
+user-select: none;
+
+    b {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    p {
+        text-align: justify;
+    }
+    .cookieBtn {
+        border: $priColor 3px solid;
+        color: $priColor;
+        transition: opacity .3s;
+        display: flex;
+        cursor: pointer;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: $borderRad1;
+        height: 50px;
+        width: 170px;
+    }
+    #cookieAgreeAll {
+        background-color: $priColor;
+        color: var(--cookie-color-background);
+    }
+    #cookieDeleteAll {
+        border-color: $delColor;
+        color: $delColor;
+    }
+    .cookieBtn:hover {
+        opacity: .5;
+    }
+    .cookieWelcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .cookieChoose {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .cookieCheck {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #cookieMain {
+        display: flex;
+        flex-direction: column;
+        transition: .5s bottom ease-in;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        
+        /*
+        animation: cookie_ani 1s;
+        @keyframes cookie_ani {
+            0% {bottom: -400px}
+            100% {bottom: 0}
+        }
+        */
+
+        #cookieTop {
+            position: absolute;
+            height: var(--cookieMaxiSize);
+            width: var(--cookieMaxiSize);
+            top: calc(-1 * var(--cookieMaxiSize) / 3);
+            left: 50%;
+            transform: translate(-50%, 0);
+            /*
+            animation: drop 1s ease-in;
+
+            @keyframes drop {
+                0% {bottom: 250px;}
+                100% {bottom: calc(-1 * var(--cookieMaxiSize) / 8);}
+            }
+            */
+            
+            img {
+                animation: svg 10s infinite linear;
+                height: 100%;
+                width: 100%;
+            }
+            @keyframes svg {
+                0% {rotate: 0;}
+                100% {rotate: 360deg;}
+            }
+        }
+        #cookieCenter {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            background-color: var(--cookie-color-background);
+            z-index: 501;
+            padding: 30px;
+            border-radius: $borderRad1 $borderRad1 0 0;
+            border-top: $priColor 2px solid;
+            width: clamp(260px, 80vw, 1000px);
+            max-height: 90%;
+            box-shadow: 2px 0px 5px #0000006e;
+        }
+        #cookieSettings {
+            background-color: beige;
+            padding: 10px;
+        }
+    }
+    #cookieMain.hidden {
+        opacity: 0;
+        bottom: -400px
+    }
+
+    #cookieSwitch {
+        position: fixed;
+        top: 30vh;
+        left: calc(-1 * var(--cookieMiniSize) / 2);
+        height: var(--cookieMiniSize);
+        width: var(--cookieMiniSize);
+        transition: left .25s;
+        
+        img {
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    #cookieSwitch:hover {
+        left:0
+    }
+}
+
+#cookie.active{
+    #cookieMain {
+        bottom: 0;
+    }
+}

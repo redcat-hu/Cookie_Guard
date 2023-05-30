@@ -1,6 +1,6 @@
 {
     "language": "en",
-    "title": "We use cookies",
+    "title": "Can we offer you a cookie?",
     "description": "We use cookies and other tracking technologies to improve your browsing experience on our website, to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from.",
     "policy": "cookie policy",
 
@@ -9,8 +9,8 @@
         "description": "Cookies are very small text files that are stored on your computer when you visit a website. We use cookies for a variety of purposes and to enhance your online experience on our website (for example, to remember your account login details). You can change your preferences and decline certain types of cookies to be stored on your computer while browsing our website. You can also remove any cookies already stored on your computer, but keep in mind that deleting cookies may prevent you from using parts of our website."
     },
     "buttons": {
-        "preferences": "Preferences",
-        "declineAll": "I decline all",
+        "settings": "Preferences",
+        "denyAll": "I decline all",
         "deleteAll": "Delete all",
         "agreeAll": "I agree all",
         "saveSettings": "Save settings"
