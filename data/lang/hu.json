@@ -1,0 +1,68 @@
+{
+    "language": "hu",
+
+    "main": {
+      "title": "Megkínálhatunk sütivel?",
+      "description": "Sütiket és más követési technológiákat használunk a böngészési élményének javításához, személyre szabott tartalom és célzott hirdetések megjelenítéséhez, weboldal forgalmunk elemzéséhez és látogatóink eredetének megértéséhez."
+    },
+
+    "settings": {
+      "title":  "Az oldal sütiket használ",
+      "description": "Sütiket és más követési technológiákat használunk a böngészési élményének javításához, személyre szabott tartalom és célzott hirdetések megjelenítéséhez, weboldal forgalmunk elemzéséhez és látogatóink eredetének megértéséhez.",
+      "policy": "Adatvédelmi irányelvek"
+    },
+    
+    
+    "tabs": {
+      "details": "Részletek",
+      "faq": "GYIK"
+    },
+
+    "faq": {
+      "cookie": {
+        "title": "Mik azok a sütik?",
+        "description": "A sütik (cookies) kis adatfájlok, amelyeket a weboldalak helyeznek el a böngésződben, hogy információkat gyűjtsenek és tároljanak. Ezek az információk lehetnek például a weboldal preferenciáid, bejelentkezési adatok vagy böngészési tevékenységeid. A sütik segítenek a weboldalaknak személyre szabottabb és hatékonyabb élményt nyújtani, valamint segítenek az oldalaknak nyomon követni a felhasználók tevékenységét."
+      },
+      "cookiecat": {
+        "title": "Ez milyen sütikezelő?",
+        "description": "A REDCAT CookieCat sütikezelője. A célunk egy korrekt, könnyen kezelhető rendszer létrehozása volt."
+      },
+      "delete": {
+        "title": "Hogyan tilthatom le a sütiket?",
+        "description": "A felhasználók könnyen beállíthatják böngészőjük beállításait saját igényeik szerint, ami lehetővé teszi a sütik könnyű letiltását. Figyelem! Ha letiltja a sütiket, a rendszer már nem tudja elmenteni a felhasználónevet és a jelszót, amelyet a webhely jelszóval védett részébe történő bejelentkezéshez használ. Keresse meg a sütik letiltásának rövid leírását a böngészőjében!"
+      }
+    },
+
+    "buttons": {
+      "settings": "Beállítások",
+      "denyAll": "Összes elutasítása",
+      "deleteAll": "Összes törlése",
+      "agreeAll": "Összes engedélyezése",
+      "save": "Mentés"
+    },
+
+    "info": {
+      "title": "Az adataid védelme fontos nekünk",
+      "description": "A sütik nagyon kis méretű szöveges fájlok, amelyeket a webhely látogatásakor tárolnak számítógépén. Sütiket számos célra használunk, és az online élményét javítjuk webhelyünkön (például emlékezünk a fiók bejelentkezési adataira). Módosíthatja preferenciáit és letilthatja bizonyos típusú sütiket a webhelyünkön történő böngészés közben. Törölheti az előre tárolt sütiket a számítógépéről, de vegye figyelembe, hogy a sütik törlése megakadályozhatja a webhelyünk egyes részeinek használatát."
+    },
+
+    "types": {
+      "necessary": {
+        "title": "Feltétlenül szükséges sütik",
+        "description": "Ezek a sütik nélkülözhetetlenek az Ön számára elérhető szolgáltatások nyújtásához webhelyünkön, valamint bizonyos funkciók használatához. Ezek nélkül a sütik nélkül nem tudunk bizonyos szolgáltatásokat nyújtani webhelyünkön."
+      },
+      "functionality": {
+        "title": "Funkcionális sütik",
+        "description": "Ezeket a sütiket arra használjuk, hogy személyre szabottabb élményt nyújtsunk Önnek webhelyünkön, és megjegyezzük az Ön által tett választásokat webhelyünk használata során. Például funkcionalitási sütiket használhatunk nyelvi preferenciák vagy bejelentkezési adatok megjegyzésére."
+      },
+      "tracking": {
+        "title": "Követési sütik",
+        "description": "Ezeket a sütiket azért használjuk, hogy információkat gyűjtsünk és elemezzünk webhelyünk forgalmáról, valamint hogy megértsük, hogyan használják látogatóink a webhelyünket. Például ezek a sütik követhetik, hogy mennyi időt tölt webhelyünkön, vagy mely oldalakat látogat, ami segít nekünk abban, hogy megértsük, hogyan javíthatjuk webhelyünket az Ön számára. Az ilyen nyomkövetési és teljesítménysütik által gyűjtött információk nem azonosítanak semmilyen egyéni látogatót."
+      },
+      "targeting": {
+        "title": "Célzott és reklám sütik",
+        "description": "Ezeket a sütiket az Ön böngészési szokásai alapján érdeklődésére számot tartó hirdetések megjelenítésére használjuk. Ezeket a sütiket tartalmi vagy reklámszolgáltatóink szolgáltatják, és az általuk gyűjtött információkat összevonhatják az általuk függetlenül gyűjtött egyéb információkkal, amelyeket webböngészője tevékenységeiről gyűjtöttek össze hálózatukban lévő webhelyek során. Ha úgy dönt, hogy eltávolítja vagy letiltja ezeket a célzott vagy reklám sütiket, még mindig látni fog hirdetéseket, de azok lehet, hogy nem lesznek relevánsak az Ön számára."
+      }
+    }
+  }
+  

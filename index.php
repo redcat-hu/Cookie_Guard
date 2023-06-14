@@ -26,7 +26,7 @@
 <script> // Variables
     let siteData = {
         language: "hu",
-        mainPath: "/"
+        redcatPath: "/red-cat-center/"
     };
 </script>
 <script src="./ts/public/cookie.js"></script> <!-- cookie script -->

@@ -1,0 +1,61 @@
+{
+    "cookie_consent_accepted": {
+        "name": "Cookie Consent Accepted",
+        "provider": "default",
+        "expiration": 180,
+        "description": {
+            "hu": "Megjegyzi, ha engedélyezted a sütiket, így nem ugrik fel újból a süti ablak"
+        },
+        "type": "necessary"
+    },
+    "cookie_consent_level": {
+        "name": "Cookie Consent Level",
+        "provider": "default",
+        "expiration": 180,
+        "description": {
+            "hu": "Megjegyzi melyik süti kategóriát engedélyezted"
+        },
+        "type": "necessary"
+    },
+
+
+    "darkmode": {
+        "name": "Darkmode",
+        "provider": "default",
+        "expiration": 7,
+        "description": {
+            "hu": "Sötét mód beállításának megjegyzésére szolgál"
+        },
+        "type": "functionality"
+    },
+    "language": {
+        "name": "Language",
+        "provider": "default",
+        "expiration": 7,
+        "description": {
+            "hu": "Nyelv beállítások mentése pl. hu"
+        },
+        "type": "functionality"
+    },
+    "vcard": {
+        "name": "vCard",
+        "provider": "default",
+        "expiration": 1,
+        "description": {
+            "hu": "A vCard generátort információkkal látja el. Pl. név, telefonszám stb.",
+            "en": "Informations for VCard generator"
+        },
+        "type": "functionality"
+    },
+
+
+    "_ga": {
+        "name": "Google Analytics",
+        "provider": "google.com",
+        "expiration": 180,
+        "description": {
+            "hu": "A Google Analytics "
+        },
+        "type": "tracking"
+    }
+}

@@ -1,6 +1,7 @@
 type siteData = {
     language?: any,
-    mainPath?: any
+    mainPath?: string,
+    redcatPath?: string
 }
 
 let siteData: siteData = {};
